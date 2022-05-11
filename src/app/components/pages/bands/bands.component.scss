@@ -1,0 +1,13 @@
+body {
+    background: #3100A3 ;
+    display: flex;
+    place-content: center center;
+}
+.container {
+    width: 50%;
+}
+
+.container path {
+    fill: #000;
+    stroke: aliceblue;
+}

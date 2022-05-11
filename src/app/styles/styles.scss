@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+    background-color: black;
+}
+
+.box {
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    color: #222;
+    background: #fff;
+    font: 100% system-ui;
+    place-content: center;
+  }
+  a {
+    color: #0033cc;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+    }
+  
+    body a {
+      color: #809fff;
+    }
+  }
+  body.dark-theme img {
+    filter: brightness(.8) contrast(1.2);
+  }
+  .container path {
+    fill: #000;
+    stroke: aliceblue;
+}
+  .containerm {
+    width: 50%;
+  }
+
+  .containerm :hov
